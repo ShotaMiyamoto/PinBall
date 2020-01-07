@@ -29,7 +29,7 @@ public class FripperController : MonoBehaviour
         //=====================スマホ上の操作========================	
         if (Input.touchCount > 0)
         {
-            var touches = Input.touches; //var型で暗示的に型を定義する
+            var touches = Input.touches; //var型で暗示的に型を定義する。
 
             //=====================タッチ座標によって処理を変える========================	
             for (int i = 0; i < touches.Length; i++)
